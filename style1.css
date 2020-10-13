@@ -93,7 +93,7 @@ html{
     top:0%;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(35, 12, 243);
+    background-color: rgb(57, 177, 247);
     z-index: 2000;
   }
   
@@ -156,10 +156,13 @@ html{
     background-color: rgb(253, 253, 255);
     z-index: 2000;
   }
-  
+  a{
+    list-style-type: none;
+    /*text-decoration: none;*/
+}
   .navbar2 a {
     float: left;
-    font-size: 200%;
+    font-size: 270%;
     color: rgb(20, 20, 20);
     text-align: center;
     padding: 1% 1% 1% 5%;
