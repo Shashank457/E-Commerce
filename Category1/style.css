@@ -233,8 +233,9 @@ footer{
   }
   
   .navbar a {
+      margin: auto;
     float: left;
-    font-size: 200%;
+    font-size: 150%;
     color: white;
     text-align: center;
     padding: 1% 1% 1% 5%;
@@ -246,7 +247,7 @@ footer{
     float: left;
     color: white;
     text-align: center;
-    padding:1% 5% 1% 1%;
+      margin: auto;
     text-decoration: none;
     
   }
@@ -255,12 +256,16 @@ footer{
       margin-left: 10px;
       cursor: pointer;
        padding: 10px;
+      border-radius: 10px;
   }
   .search-box{
-        padding:1% 20% 1% 5%;
-        font-size:150%;
+        padding:20px;
+      margin-left: 0px;
+        border-radius: 10px;
+      font-size: 15px;
   }
   .log{
+      margin: auto;
     float: left;
     color: white;
     text-align: center;
@@ -271,7 +276,7 @@ footer{
   .lb{
     color:blue;
     padding: 2% 15% 2% 15%;
-    font-size: 200%;
+    font-size: 150%;
     font-family: serif;
     cursor: pointer;
     border: 2px solid #f6fa2b;
@@ -296,12 +301,12 @@ footer{
     background-color: rgb(253, 253, 255);
     z-index: 2000;
      position:fixed; 
-     top:17%;
+ top:12%;
   }
   a{
       list-style-type: none;
       text-decoration: none;
-  }
+}
   .navbar2 a {
     
     float: left;
@@ -317,7 +322,6 @@ footer{
     cursor: pointer;
     color: #3916ff;
   }
-
 
 
     
