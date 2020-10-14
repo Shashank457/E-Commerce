@@ -258,7 +258,7 @@ footer{
   }
   .search-box{
         padding:1% 20% 1% 5%;
-        font-size:200%;
+        font-size:150%;
   }
   .log{
     float: left;
@@ -271,7 +271,7 @@ footer{
   .lb{
     color:blue;
     padding: 2% 15% 2% 15%;
-    font-size: 300%;
+    font-size: 200%;
     font-family: serif;
     cursor: pointer;
     border: 2px solid #f6fa2b;
@@ -296,12 +296,12 @@ footer{
     background-color: rgb(253, 253, 255);
     z-index: 2000;
      position:fixed; 
- top:17%;
+     top:17%;
   }
   a{
       list-style-type: none;
       text-decoration: none;
-}
+  }
   .navbar2 a {
     
     float: left;
