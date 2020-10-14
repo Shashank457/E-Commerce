@@ -4,8 +4,7 @@
 }
 
  html{
-    font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+    
   color: #000000;
   } 
 
@@ -234,16 +233,19 @@ footer{
 
 .navbar {
     position:fixed;
+    display: flex;
     top:0%;
     width: 100%;
     overflow: hidden;
     background-color: rgb(57, 177, 247);
     z-index: 2000;
+    margin-bottom: 0px;
   }
   
   .navbar a {
+      margin: auto;
     float: left;
-    font-size: 300%;
+    font-size: 150%;
     color: white;
     text-align: center;
     padding: 1% 1% 1% 5%;
@@ -251,22 +253,29 @@ footer{
     font-style: italic;
   }
   .search-container{
+      display: flex;
     float: left;
     color: white;
     text-align: center;
-    padding:1% 5% 1% 1%;
+      margin: auto;
     text-decoration: none;
     
   }
   .search-button{
+      margin-top: 10px;
+      margin-left: 10px;
       cursor: pointer;
-       padding: 2% 2%;
+       padding: 10px;
+      border-radius: 10px;
   }
   .search-box{
-        padding:1% 20% 1% 5%;
-        font-size:250%;
+        padding:20px;
+      margin-left: 0px;
+        border-radius: 10px;
+      font-size: 15px;
   }
   .log{
+      margin: auto;
     float: left;
     color: white;
     text-align: center;
@@ -277,19 +286,21 @@ footer{
   .lb{
     color:blue;
     padding: 2% 15% 2% 15%;
-    font-size: 300%;
+    font-size: 150%;
     font-family: serif;
     cursor: pointer;
     border: 2px solid #f6fa2b;
   }
   .cart{
     float: left;
-    padding:0.5% 0% 0% 3%;
+    padding:20px;
     font-size: 100%;
     cursor: pointer;
     
   }
   .cart img{
+      float: left;
+    
     width:20%;
     height: 20%;
     border-radius: 50%;
@@ -299,26 +310,28 @@ footer{
     overflow: hidden;
     background-color: rgb(253, 253, 255);
     z-index: 2000;
+     position:fixed; 
+ top:12%;
   }
   a{
-    list-style-type: none;
-    
-  }
+      list-style-type: none;
+      text-decoration: none;
+}
   .navbar2 a {
+    
     float: left;
-    font-size: 270%;
+    font-size: 200%;
     color: rgb(20, 20, 20);
     text-align: center;
     padding: 1% 1% 1% 5%;
     margin-left: 6%;
     font-style: italic;
-    
   }
   .navbar2 a:active{
+      
     cursor: pointer;
     color: #3916ff;
   }
-
 
 
     
